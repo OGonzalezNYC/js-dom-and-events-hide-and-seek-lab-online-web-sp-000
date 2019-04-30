@@ -2,11 +2,9 @@ function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
-
 function nestedTarget() {
   return document.querySelector('#nested .target');
 }
-
 
 function increaseRankBy(n) {
   let allRankedLists = document.querySelectorAll('.ranked-list li');
